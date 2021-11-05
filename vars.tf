@@ -12,11 +12,11 @@ variable AMIS {
 }
 
 variable PRIV_KEY_PATH {
-    default = "~/.ssh/dovekey"
+    default = "dovekey"
 }
 
 variable PUB_KEY_PATH {
-    default = "~/.ssh/dovekey.pub"
+    default = "dovekey.pub"
 }
 
 variable USERNAME {
